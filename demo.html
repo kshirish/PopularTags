@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='css/custom.css' rel='stylesheet' type='text/css'>		
+	</head>
+	<body>
+		<div id="tagContainer">
+		</div>
+
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+		<script src="js/popularTags.js"></script>
+		<script>	
+			$(document).ready(function(){
+				
+				var fontMin = 20, fontMax = 45;
+				var items = [
+				{
+					id: 1,
+					title: "Blogs",
+					priority: 4
+				},
+				{
+					id: 2,
+					title: "Rain",
+					priority: 4
+				},
+				{
+					id: 3,
+					title: "Steve",
+					priority: 1
+				},
+				{
+					id: 5,
+					title: "TCS",
+					priority: 0
+				},
+				{
+					id: 4,
+					title: "Windows",
+					priority: 1
+				},{
+					id: 1,
+					title: "Linux",
+					priority: 4
+				},
+				{
+					id: 2,
+					title: "Hack",
+					priority: 4
+				},
+				{
+					id: 3,
+					title: "Rock",
+					priority: 1
+				},
+				{
+					id: 5,
+					title: "Food",
+					priority: 0
+				},
+				{
+					id: 4,
+					title: "Love",
+					priority: 1
+				}];
+
+				$('#tagContainer').setTags(items);
+			});
+		</script>	
+	</body>
+</html>
