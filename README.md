@@ -43,5 +43,7 @@ $(document).ready(function(){
         //passon json as data and font-range to setTags()
 				$('#tagContainer').setTags(items, fontMin, fontMax);
 	});
-	
-	![](http://oi57.tinypic.com/ff73hf.jpg)
+
+
+LOOKS SOMETHING LIKE THIS !
+![demo](http://oi57.tinypic.com/ff73hf.jpg)
