@@ -1,0 +1,28 @@
+{
+  "name": "popularTag",
+  "title": "Popular Tag",
+  "description": "Similar to hot tag and tag cloud.",
+  "version": "0.1",
+  "homepage": "https://github.com/kshirish/PopularTags/",
+  "author": {
+    "name": "kshirish",
+    "url": "https://github.com/kshirish/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kshirish/PopularTags/"
+  },
+  "bugs": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">= 1.4"
+  },
+  "keywords": [
+    "hotag", "tag", "popular"
+  ]
+}
