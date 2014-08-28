@@ -2,7 +2,7 @@
   "name": "popularTag",
   "title": "Popular Tag",
   "description": "Similar to hot tag and tag cloud.",
-  "version": "0.1",
+  "version": "0.0.4",
   "homepage": "https://github.com/kshirish/PopularTags/",
   "author": {
     "name": "kshirish",
