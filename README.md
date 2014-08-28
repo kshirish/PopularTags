@@ -44,4 +44,4 @@ $(document).ready(function(){
 				$('#tagContainer').setTags(items, fontMin, fontMax);
 	});
 	
-	
+	![](http://oi57.tinypic.com/ff73hf.jpg)
